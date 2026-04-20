@@ -1,0 +1,220 @@
+:root {
+  --color-primary: #5b9f8f;
+  --color-accent-yellow: #ffe7b1;
+  --color-secondary-text: #929bb5;
+  --color-cta: #eb923b;
+  --color-success: #80d838;
+
+  --fs-h1: 48px;
+  --fs-h2: 40px;
+  --fs-h3: 32px;
+  --fs-h4: 26px;
+  --fs-h5: 22px;
+  --fs-h6: 18px;
+  --fs-p: 16px;
+  --fs-small: 14px;
+}
+
+body img {
+  max-width: 100%;
+}
+@font-face {
+  font-family: "Mikhak";
+  src: url("../font/woff2/Mikhak-Thin.woff2") format("woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Mikhak";
+  src: url("../font/woff2/Mikhak-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Mikhak";
+  src: url("../font/woff2/Mikhak-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Mikhak";
+  src: url("../font/woff2/Mikhak-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Mikhak";
+  src: url("../font/woff2/Mikhak-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+main{
+  min-height: 70vh;
+}
+h1 {
+  font-weight: 600;
+  font-size: 42px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+h5 {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h6 {
+  font-weight: 100;
+  font-size: 14px;
+}
+a {
+  font-weight: 100;
+  font-size: 20px;
+}
+p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.small-txt {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Mikhak", sans-serif;
+}
+
+body {
+  /* font-family: "ExpoArabic"; */
+  text-align: end;
+  padding: 0;
+}
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  all: unset;
+  color: black;
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  text-align: start;
+}
+@media screen and (max-width:525px) {
+  h1{
+    font-size: 36px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  p{
+    line-height: 160%;
+  }
+}
+h2 {
+  white-space: nowrap;
+}
+.navbar-nav {
+  background-color: var(--color-accent-yellow);
+  border-radius: 200px;
+  padding: 8px 40px;
+  font-weight: 600;
+}
+.navbar-toggler-icon{
+  background-color: var(--color-cta);
+}
+.navbar-toggler {
+  border: solid;
+  border-width: 1px;
+  border-color: transparent;
+  box-shadow: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--color-cta);
+}
+.nav-link:focus, .nav-link:hover{
+    color: var(--color-cta);
+    opacity: 70%;
+}
+.navbar-nav a {
+  color: var(--color-primary);
+}
+.three-bars-btn {
+  height: 35px;
+  border: none;
+}
+.collapse {
+  width: 100%;
+}
+.collapse ul {
+  width: 100%;
+  background-color: transparent;
+}
+@media screen and (max-width: 992px) {
+  header {
+    background-color: var(--color-accent-yellow);
+  }
+}
+a,
+button {
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  background-color: var(--color-success);
+  color: white;
+  padding: 0 0 60px 0;
+  margin-block-start: 40px;
+}
+footer p {
+  font-weight: 500;
+  font-size: 27px;
+  text-align: center;
+  width: fit-content;
+}
+@media screen and (min-width:786px) {
+  footer{
+    margin: 0;
+  }
+  footer p {
+  font-weight: 500;
+  font-size: 27px;
+  text-align: start;
+  width: fit-content;
+}
+}
+
+.footer-divider {
+  position: relative;
+  inset-block-end: -50px;
+  z-index: -20;
+}

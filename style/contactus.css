@@ -1,0 +1,11 @@
+.contactus-hero-box{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.links-section{
+    color: var(--color-success);
+}
+.links-section a{
+    color: var(--color-primary);
+}

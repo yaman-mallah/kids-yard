@@ -1,0 +1,255 @@
+
+
+/* who are we section */
+.who-are-we-section{
+  padding-bottom: 100px;
+}
+.who-are-we-section h1 {
+  color: var(--color-success);
+  text-align: center;
+}
+.who-are-we-section p {
+  color: var(--color-primary);
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  max-width: 600px;
+}
+.question-svg {
+  width: 80px;
+}
+.idea-text {
+  position: absolute;
+  /* inset-inline-start: calc(100% - 80%);
+  inset-block-end: calc(100% - 100px); */
+  inset: 0;
+  width: 100%;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idea-n4 {
+  position: relative;
+  inset-inline-start: 5px;
+  inset-block-start: 40px;
+  width: 60%;
+  color: white !important;
+}
+.idea-n3{
+  position: relative;
+  inset-inline-start: -15px;
+  inset-block-start: 10px;
+  width: 60%;
+  color: white !important;
+}
+.idea-n2 {
+  /* position: absolute; */
+  inset-inline-start: 20%;
+  width: 60%;
+  color: white !important;
+}
+.idea-n1 {
+  position: relative;
+  inset-inline-start: 5%;
+  inset-block-start: -20px;
+  width: 60%;
+  color: white !important;
+}
+@media screen and (min-width: 1024px) {
+  .idea-n2 {
+    position: relative;
+    inset-inline-start: 10%;
+    width: 60%;
+    color: white !important;
+  }
+}
+.orange-label-text-box {
+  /* position: absolute; */
+  /* inset: 0; */
+}
+.orange-label-text-box h3 {
+  color: white;
+  padding-block: 60px;
+}
+.orange-label-svg {
+  width: 670px;
+}
+.orange-label {
+  background-image: url("/assests/Group.svg");
+  background-size: contain; /* or contain */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* who are we section */
+.who-are-we-section{
+  padding-bottom: 100px;
+}
+.who-are-we-section h2 {
+  color: var(--color-success);
+  text-align: center;
+}
+.who-are-we-section p {
+  color: var(--color-primary);
+  text-align: center;
+  max-width: 600px;
+}
+.question-svg {
+  width: 80px;
+}
+.idea-text {
+  position: absolute;
+  /* inset-inline-start: calc(100% - 80%);
+  inset-block-end: calc(100% - 100px); */
+  inset: 0;
+  width: 100%;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.idea-text h3{
+  font-size: 24px;
+}
+.idea-n4 {
+  position: relative;
+  inset-inline-start: 5px;
+  inset-block-start: 40px;
+  width: 60%;
+  color: white !important;
+}
+.idea-n3{
+  position: relative;
+  inset-inline-start: -15px;
+  inset-block-start: 10px;
+  width: 60%;
+  color: white !important;
+}
+.idea-n2 {
+  /* position: absolute; */
+  inset-inline-start: 20%;
+  width: 60%;
+  color: white !important;
+}
+.idea-n1 {
+  position: relative;
+  inset-inline-start: 5%;
+  inset-block-start: -20px;
+  width: 60%;
+  color: white !important;
+}
+@media screen and (min-width: 1024px) {
+  .idea-n2 {
+    position: relative;
+    inset-inline-start: 10%;
+    width: 60%;
+    color: white !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .idea-n2 {
+        position: relative;
+
+    inset-inline-start: 8%;
+    width: 60%;
+  }
+}
+.orange-label-text {
+  text-align: center;
+}
+.orange-label-text-box h3 {
+  color: white;
+  padding-block: 60px;
+}
+.orange-label-svg {
+  width: 670px;
+}
+.orange-label {
+  background-image: url("/assests/Group.svg");
+  background-size: contain; /* or contain */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*   */
+.idea-svg-box {
+  max-width: 350px;
+}
+.idea-svg {
+  width: 250px;
+  /* width: 100%; */
+}
+@media screen and (min-width: 1024px) {
+  .idea-svg {
+    width: 340px;
+  }
+}
+
+/* our curriculm section */
+.our-curriculm-section h2{
+    color: var(--color-success);
+}
+.our-curriculm-section img{
+    width: 90%;
+    max-width: 700px;
+}
+.curriculm-card-header{
+    position: relative;
+    inset-block-end: -20px;
+}
+.curriculm-header-box{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
+}
+.curriculm-body{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+    color: white;
+    max-width: 900px;
+    padding-top: 40px;
+}
+.curriculm-body p{
+    line-height: 170%;
+    font-weight: 500;
+}
+.read-more-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.read-more-btn {
+    background-color: var(--color-success);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.read-more-text.expanded {
+    display: block;
+    -webkit-line-clamp: unset;
+}
+.read-more-btn.hidden {
+    display: none;
+}
+/* Desktop styles */
+@media screen and (min-width: 769px) {
+    .read-more-text {
+        display: block;
+        -webkit-line-clamp: unset;
+    }
+    .read-more-btn {
+        display: none;
+    }
+}
+
+

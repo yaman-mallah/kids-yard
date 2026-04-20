@@ -1,0 +1,24 @@
+.our-facilty-hero{
+    min-height: 40vh;
+    color: var(--color-primary);
+    
+}
+.our-facilty-hero *{
+    text-align: center;
+}
+.option-card{
+    background-color: var(--color-accent-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    aspect-ratio: 1/1;
+}
+@media screen and (min-width:786px) {
+    .option-card img{
+        object-fit: cover;
+        max-height: 267px;
+    }
+}
