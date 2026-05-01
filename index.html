@@ -16,6 +16,13 @@
 </head>
 
 <body>
+    <div id="loader">
+          <div class="spinner"></div>
+          <h3>
+
+              Kids Yard
+          </h3>
+    </div>
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg py-2">
@@ -1610,7 +1617,7 @@
                                     class="d-flex flex-column align-items-center gap-3 mb-5">
                                     <img src="/assests/our facilty/maze.png" alt="Child learning with blocks">
                                     <div class="our-facilty-card-title">
-    
+
                                         <h3>المتاهة</h3>
                                     </div>
                                     <p>ﻟﺘﻌﺒﻴﺮ اﻟﻄﻔﻞ ﻋﻦ ذاﺗﻪ</p>
@@ -2481,6 +2488,16 @@
                 .attr("stroke-linecap", "round")
                 .attr("stroke-linejoin", "round")
                 .attr("transform", `scale(${d.scale}) translate(${d.offset.x}, ${d.offset.y})`);
+        });
+        window.addEventListener("load", function () {
+
+            // everything is loaded
+            console.log('loaded.....')
+
+            document.getElementById("loader").style.display = "none";
+
+            document.getElementById("content").style.display = "block";
+
         });
     </script>
 </body>

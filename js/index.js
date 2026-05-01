@@ -29,3 +29,13 @@ if (typeof Swiper !== 'undefined') {
 
     });
 }
+   window.addEventListener("load", function () {
+
+            // everything is loaded
+            console.log('loaded.....')
+
+            document.getElementById("loader").style.display = "none";
+
+            document.getElementById("content").style.display = "block";
+
+        });
