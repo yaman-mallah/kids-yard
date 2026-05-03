@@ -1615,7 +1615,7 @@
                             <div class="col-12 col-md-6 ">
                                 <a href="./pages/ourFacilty/cards/maze.html"
                                     class="d-flex flex-column align-items-center gap-3 mb-5">
-                                    <img src="/assests/our facilty/maze.png" alt="Child learning with blocks">
+                                    <img src="./assests/our facilty/maze.png" alt="Child learning with blocks">
                                     <div class="our-facilty-card-title">
 
                                         <h3>المتاهة</h3>
@@ -2363,7 +2363,9 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js">
+
+    </script>
     <script src="./js/index.js"></script>
     <script>
         // 1. Setup the Responsive SVG
@@ -2500,6 +2502,19 @@
 
         });
     </script>
+    <script>
+          window.addEventListener("load", function () {
+
+            // everything is loaded
+            console.log('loaded.....')
+
+            document.getElementById("loader").style.display = "none";
+
+            document.getElementById("content").style.display = "block";
+
+        });
+    </script>
+   
 </body>
 
 </html>
