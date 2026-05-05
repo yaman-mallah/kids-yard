@@ -402,7 +402,7 @@ h2 {
   justify-content: start;
   position: relative;
   padding: 30px;
-  background-image: url("/assests/number\ bg.svg");
+  background-image: url('../assests/number\ bg.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
