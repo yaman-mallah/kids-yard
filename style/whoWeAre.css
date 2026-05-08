@@ -186,6 +186,12 @@
 }
 
 /* our curriculm section */
+.our-curriculm-card p {
+  text-align: center;
+}
+.our-curriculm-card .align-text {
+  text-align: start;
+}
 .our-curriculm-section h2{
     color: var(--color-success);
 }

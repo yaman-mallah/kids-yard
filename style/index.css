@@ -186,7 +186,12 @@ h2 {
   z-index: -1;
 }
 .hero-img {
-  max-width: 400px;
+  max-width: 300px;
+}
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    max-width: 400px;
+  }
 }
 .h1-box {
   padding: 30px;
@@ -283,6 +288,7 @@ h2 {
 }
 .idea-text h3{
   font-size: 24px;
+  text-align: center;
 }
 .idea-n4 {
   position: relative;
@@ -299,8 +305,8 @@ h2 {
   color: white !important;
 }
 .idea-n2 {
-  /* position: absolute; */
-  inset-inline-start: 20%;
+  /* position: relative; */
+  inset-inline-start: 10%;
   width: 60%;
   color: white !important;
 }
@@ -314,7 +320,7 @@ h2 {
 @media screen and (min-width: 1024px) {
   .idea-n2 {
     position: relative;
-    inset-inline-start: 10%;
+    inset-inline-start: 5%;
     width: 60%;
     color: white !important;
   }
@@ -338,7 +344,7 @@ h2 {
   width: 670px;
 }
 .orange-label {
-  background-image: url("/assests/Group.svg");
+  background-image: url("../assests/Group.svg");
   background-size: contain; /* or contain */
   background-repeat: no-repeat;
   background-position: center;
@@ -431,7 +437,7 @@ h2 {
   position: relative;
   padding-inline: 30px;
   padding-block: 6px;
-  background-image: url("/assests/our\ facilty/vector.svg");
+  background-image: url("../assests/our\ facilty/vector.svg");
   background-size: contain;
   overflow: visible;
   background-repeat: no-repeat;
@@ -505,16 +511,32 @@ button {
   border-radius: 12px;
   border: solid 2px var(--color-cta);
   padding: 20px;
+  position: relative;
 }
 .testimonials-card p {
   color: var(--color-primary);
   font-weight: 500;
+}
+.testimonials-card div {
+  position: absolute;
+  width: 30px;
+}
+.top-right{
+  inset-inline-start: -15px;
+  inset-block-start: -15px;
+}
+.bottom-left{
+  inset-inline-end: -15px;
+  inset-block-end: -15px;
 }
 .testimonials-card h3 {
   color: var(--color-primary);
 }
 .testimonials-section h2 {
   color: var(--color-success);
+}
+.stars-testimonials-box img{
+  width: 100px;
 }
 
 /* cta section */

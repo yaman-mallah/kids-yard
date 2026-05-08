@@ -59,6 +59,11 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  font-variant-ligatures: contextual;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
 }
 
 h3 {
@@ -198,7 +203,7 @@ footer {
 }
 footer p {
   font-weight: 500;
-  font-size: 27px;
+  font-size: 18px;
   text-align: center;
   width: fit-content;
 }
@@ -208,7 +213,7 @@ footer p {
   }
   footer p {
     font-weight: 500;
-    font-size: 27px;
+    font-size: 24px;
     text-align: start;
     width: fit-content;
   }
