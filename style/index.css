@@ -241,7 +241,7 @@ h2 {
 }
 .uper-divider {
   position: absolute;
-  inset-block-start: -40px;
+  inset-block-start: -25px;
   inset-inline: 0;
   max-width: 1820px;
   margin: 0 auto;
@@ -344,10 +344,15 @@ h2 {
   width: 670px;
 }
 .orange-label {
-  background-image: url("../assests/Group.svg");
-  background-size: contain; /* or contain */
+  background-image: url("../assests/orangeLabelPhoneVersion.svg");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+@media screen and (min-width: 768px) {
+  .orange-label {
+    background-image: url("../assests/Group.svg");
+  }
 }
 /*   */
 .idea-svg-box {
