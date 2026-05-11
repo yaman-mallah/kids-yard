@@ -177,6 +177,7 @@ h2 {
   inset-inline-end: 30%;
   inset-block-start: 40px;
   width: 50px;
+  z-index: 0;
 }
 .sun-svg {
   position: absolute;
@@ -199,6 +200,7 @@ h2 {
   background-size: contain;
   background-position: bottom;
   color: white;
+  z-index: 10;
   /* background-image: url(../assests/Group.png); */
 }
 .h1-bg {
@@ -214,9 +216,10 @@ h2 {
 @media screen and (max-width:525px) {
   .h1-bg {
   position: absolute;
-    /* width: 130%; */
-    inset-inline-start: calc(147px - 50%);
-    inset-block: 0;
+    width: 120%;
+    inset-inline-start: -30px;
+    inset-block-start: -10px;
+    inset-block-end: 0;
     z-index: -1;
     scale: 0.9;
 }

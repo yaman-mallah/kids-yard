@@ -110,6 +110,13 @@
         console.warn('Kids Yard diagram:', e);
       }
     }
+    if (typeof window.initKidsyardTestimonialsSwiper === 'function') {
+      try {
+        window.initKidsyardTestimonialsSwiper();
+      } catch (e) {
+        console.warn('Kids Yard testimonials swiper:', e);
+      }
+    }
   }
 
   function bindLangControls() {

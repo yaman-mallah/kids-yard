@@ -29,19 +29,54 @@ window.addEventListener('kidsyard:i18n-language-changed', function () {
     });
 });
 
-if (typeof Swiper !== 'undefined') {
-    const swiper = new Swiper('.swiper', {
-        direction: 'horizontal',
-        loop: true,
+(function () {
+    var testimonialsSwiper = null;
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-        spaceBetween: 30,
+    function testimonialsSwiperEl() {
+        return document.querySelector('.testimonials-section .swiper');
+    }
 
+    function isRtlDocument() {
+        var d = document.documentElement.getAttribute('dir');
+        if (d) return d.toLowerCase() === 'rtl';
+        if (document.body && document.body.getAttribute('dir')) {
+            return document.body.getAttribute('dir').toLowerCase() === 'rtl';
+        }
+        return false;
+    }
+
+    function destroyTestimonialsSwiper() {
+        if (testimonialsSwiper && !testimonialsSwiper.destroyed) {
+            testimonialsSwiper.destroy(true, true);
+        }
+        testimonialsSwiper = null;
+    }
+
+    function initKidsyardTestimonialsSwiper() {
+        if (typeof Swiper === 'undefined') return;
+        var el = testimonialsSwiperEl();
+        if (!el) return;
+
+        destroyTestimonialsSwiper();
+
+        var pag = el.querySelector('.swiper-pagination');
+        testimonialsSwiper = new Swiper(el, {
+            direction: 'horizontal',
+            loop: true,
+            rtl: isRtlDocument(),
+            observer: true,
+            observeParents: true,
+            pagination: pag ? { el: pag } : undefined,
+            spaceBetween: 30,
+        });
+    }
+
+    window.initKidsyardTestimonialsSwiper = initKidsyardTestimonialsSwiper;
+
+    window.addEventListener('load', function () {
+        initKidsyardTestimonialsSwiper();
     });
-}
+})();
 window.addEventListener("load", function () {
 
     // everything is loaded
