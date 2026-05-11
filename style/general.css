@@ -291,6 +291,12 @@ footer p {
 [dir="ltr"] .question-svg {
   transform: scaleX(-1);
 }
+[dir="ltr"] .girl-img-contact-us {
+  transform: scaleX(-1);
+}
+[dir="ltr"] .text-box-register-btn {
+  justify-content: center;
+}
 
 
 @media screen and (min-width: 768px) {

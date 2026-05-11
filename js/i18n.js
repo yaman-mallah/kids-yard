@@ -103,6 +103,13 @@
     applyReadMoreButtons();
     applyCtaSvg();
     applyLocaleImages();
+    if (typeof window.renderKidsYardDiagram === 'function') {
+      try {
+        window.renderKidsYardDiagram();
+      } catch (e) {
+        console.warn('Kids Yard diagram:', e);
+      }
+    }
   }
 
   function bindLangControls() {

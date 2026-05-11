@@ -126,6 +126,23 @@
     },
     "kids": {
       "paragraph": "Give your child the best start today and join the Kids Yard family."
+    },
+    "diagram": {
+      "stars": [
+        ["Values practiced daily", "not just taught"],
+        ["Emotional intelligence", "and expressing feelings"],
+        ["Interactive activities "," that build thinking and", "social skills"],
+        ["Bilingual education"],
+        ["Safe environment", "with continuous supervision"]
+      ]
+    },
+    "cta":{
+      "title":"Kids Yard Bilingual Nurseries",
+      "features":{
+        "feature1":"Safe environment",
+        "feature2":"Modern Education",
+        "feature3":"Caring Approach"
+      }
     }
   },
   "contactUs": {
