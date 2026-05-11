@@ -251,6 +251,12 @@ footer p {
   }
 }
 
+/* btn-group uses physical corners (first/last child); in RTL those look reversed. Isolate LTR so the pill shape matches in both languages. */
+.lang-switch.btn-group {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
 .lang-switch .lang-switch-btn.active {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
@@ -297,13 +303,20 @@ footer p {
 [dir="ltr"] .number-card {
   width: 70%;
 }
-
+@media screen and (min-width: 522px) {
+  [dir="ltr"] .number-card {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   [dir="ltr"] .orange-label {
     width: 100%;
     /* TODO change the image url to fit the english text */
     background-image: url("../assests/orangeLabelEnglishDesktop.svg");
+  }
+  [dir="ltr"] .number-card {
+    width: 100%;
   }
 }
 
