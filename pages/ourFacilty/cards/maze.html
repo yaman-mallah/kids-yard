@@ -19,10 +19,7 @@
 <body>
     <div id="loader">
           <div class="spinner"></div>
-          <h3>
-
-              Kids Yard
-          </h3>
+          <h3 data-i18n="common.brand">Kids Yard</h3>
     </div>
     <header>
         <div class="container">
@@ -245,14 +242,20 @@
                         </svg>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="../../../index.html">اﻟﺮﺋﻴﺴﻴﺔ</a>
-                            <a class="nav-link" href="../../whoWeAre">ﻣﻦ ﻧﺤﻦ</a>
-                            <!-- <a class="nav-link" href="../../ourCurriculum.html">ﻣﻨﻬﺠﻨﺎ</a> -->
-                            <a class="nav-link" href="../../ourFacilty">ﻣﺮاﻓﻘﻨﺎ وأﻧﺸﻄﺘﻨﺎ</a>
-                            <a class="nav-link" href="../../gallery">أﻟﺒﻮم اﻟﺼﻮر </a>
-                            <a class="nav-link" href="../../contactUs">ﺗﻮاﺻﻠﻮا ﻣﻌﻨﺎ</a>
-                            <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+                        <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-2">
+                            <div class="navbar-nav">
+                                <a class="nav-link" aria-current="page" href="../../../index.html" data-i18n="nav.home">اﻟﺮﺋﻴﺴﻴﺔ</a>
+                                <a class="nav-link" href="../../whoWeAre" data-i18n="nav.whoWeAre">ﻣﻦ ﻧﺤﻦ</a>
+                                <!-- <a class="nav-link" href="../../ourCurriculum.html">ﻣﻨﻬﺠﻨﺎ</a> -->
+                                <a class="nav-link" href="../../ourFacilty" data-i18n="nav.facilities">ﻣﺮاﻓﻘﻨﺎ وأﻧﺸﻄﺘﻨﺎ</a>
+                                <a class="nav-link" href="../../gallery" data-i18n="nav.gallery">أﻟﺒﻮم اﻟﺼﻮر </a>
+                                <a class="nav-link" href="../../contactUs" data-i18n="nav.contact">ﺗﻮاﺻﻠﻮا ﻣﻌﻨﺎ</a>
+                                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+                            </div>
+                            <div class="lang-switch btn-group" role="group" aria-label="Language">
+                                <button type="button" class="btn btn-sm btn-outline-secondary lang-switch-btn" data-set-lang="ar" data-i18n="common.langAr">العربية</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary lang-switch-btn" data-set-lang="en" data-i18n="common.langEn">English</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -271,8 +274,8 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="d-flex flex-column justify-content-center h-100 gap-3">
-                            <h3>المتاهة</h3>
-                            <p>وهي مساحة آمنة وممتعة للعب الحر، مجهّزة بوسائل ترفيهية وتعليمية جذابة، يفرّغ الطفل من
+                            <h3 data-i18n="facility.maze.title">المتاهة</h3>
+                            <p data-i18n="facility.maze.body">وهي مساحة آمنة وممتعة للعب الحر، مجهّزة بوسائل ترفيهية وتعليمية جذابة، يفرّغ الطفل من
                                 خلالها طاقته بطريقة بنّاءة وهادفة.</p>
                         </div>
                     </div>
@@ -289,7 +292,7 @@
         <div class="container">
             <div class="d-flex flex-column gap-3 p-4 p-md-0">
                 <div class="d-flex justify-content-center align-items-center flex-column w-100">
-                    <p>ﻟﻠﺘﻮاﺻﻞ ﻣﻌﻨﺎ ﻟﻼﺳﺘﻔﺴﺎرات واﻟﺤﺠﺰ</p>
+                    <p data-i18n="footer.cta">ﻟﻠﺘﻮاﺻﻞ ﻣﻌﻨﺎ ﻟﻼﺳﺘﻔﺴﺎرات واﻟﺤﺠﺰ</p>
                     <div class="d-flex gap-2">
                         <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -417,13 +420,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@23.11.5/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.5.0/i18nextHttpBackend.min.js"></script>
+    <script src="../../../js/i18n.js"></script>
       <script src="https://d3js.org/d3.v7.min.js"></script>
 
 <script>
           window.addEventListener("load", function () {
 
             // everything is loaded
-            console.log('loaded.....')
+            //console.log('loaded.....')
 
             document.getElementById("loader").style.display = "none";
 
@@ -431,7 +437,7 @@
 
         });
     </script>    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="../../../js/index.js"></script>
 </body>
 
 </html>

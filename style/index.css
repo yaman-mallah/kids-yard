@@ -91,7 +91,7 @@ body {
 
 body {
   /* font-family: "ExpoArabic"; */
-  text-align: end;
+  /* text-align: end; */
   padding: 0;
 }
 a,
@@ -251,7 +251,7 @@ h2 {
   position: relative;
   width: 400px;
   z-index: 10;
-  inset-inline-end: -10%;
+  left: -10%;
 }
 @media screen and (min-width: 1024px) {
   .rocket-svg {
@@ -493,7 +493,7 @@ button {
   display: flex;
   align-items: center;
   z-index: 10;
-  justify-content: start;
+  justify-content: center;
   padding-inline-start: 30px;
 }
 
@@ -548,6 +548,7 @@ button {
 /* cta section */
 .cta-section h3 {
   color: var(--color-cta);
+  max-width: 500px;
  
 }
 .cta-section{

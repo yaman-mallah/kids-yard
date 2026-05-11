@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "Kids Yard"
+  },
+  "common": {
+    "brand": "Kids Yard",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "langAr": "العربية",
+    "langEn": "English"
+  },
+  "nav": {
+    "home": "Home",
+    "whoWeAre": "Who we are",
+    "curriculum": "Our curriculum",
+    "facilities": "Our facilities & activities",
+    "gallery": "Photo gallery",
+    "contact": "Contact us"
+  },
+  "footer": {
+    "cta": "Contact us for inquiries and bookings",
+    "branch": " Abdullah Al-Mubarak Branch",
+    "branch2": "Sabah Al-Nasser Branch"
+  },
+  "pageFacilities": {
+    "heading": "Facilities & activities",
+    "sub": "Annual activities and facility descriptions will be added here (details pending from the nursery)."
+  },
+  "pageWhoWeAre": {
+    "heading": "Who we are",
+    "curriculumHeading": "Our curriculum",
+    "ourCurriculum": {
+      "title": "Our Curriculum",
+      "cards": {
+        "arabic": {
+          "title": "Arabic Language",
+          "paragraph": "As Arabic is the foundation of our identity, culture, and faith, we give it special attention at Kids Yard and ensure it is naturally integrated into the child’s daily life.We introduce children to the beauty of the language through meaningful stories, songs, interactive dialogue, and real-life classroom situations—so Arabic becomes a language they live and feel, not just a subject they study.We also teach reading and writing skills using modern, interactive methods based on play, sensory tools, and practical activities, enabling children to learn confidently and smoothly.Our goal is to develop listening and speaking skills, enrich vocabulary, and build confidence in communication—helping children grow connected to their language, proud of their identity, and able to express themselves fluently."
+        },
+        "english": {
+          "title": "English Language",
+          "paragraph": "We teach English through an interactive approach based on play, movement, songs, and daily communication in the classroom, allowing children to acquire the language naturally and enjoyably.We also focus on reading and writing skills using the latest early childhood education methods, enabling our students to achieve strong proficiency in speaking, reading, and writing with confidence.Our goal is for children to grow able to use the language fluently, express their ideas clearly, and be well-prepared for future academic stages."
+        },
+        "islamic": {
+          "title": "Islamic Education",
+          "paragraph": "At Kids Yard, we believe Islamic education is not just a subject, but a way of life instilled in children with love and awareness from an early age.\n\nWe introduce the basics of Islam in a simple and engaging way through:\n• Guiding children to perform ablution and daily prayers step by step\n• Memorizing short Surahs and daily supplications in a fun way\n• Stories of the Prophets and Seerah presented in an engaging style\n• Activities that promote values such as honesty, respect, responsibility, and cooperation\n\nWe also organize encouraging Quran memorization competitions to motivate children and strengthen their love for the words of Allah in a positive and supportive way.\n\nOur focus is on building a positive relationship between the child and their faith—based on understanding and comfort—so they grow up feeling connected to Allah and practicing Islamic values with confidence and love."
+        },
+        "programmes": {
+          "title": "Programs & Enrichment Activities",
+          "paragraph": "At Kids Yard, we believe that true learning goes beyond the classroom curriculum and extends into daily experiences that enrich the child’s mind and nurture curiosity.That’s why we have designed integrated enrichment programs that develop intellectual, physical, social, and creative skills.At Kids Yard… every day is an adventure, and every day is a new experience.We ensure children come to nursery excited and eager, as their day is full of discovery, movement, interaction, and meaningful fun.We transform the school day from routine learning into a rich experience where children learn through play, exploration, collaboration, and teamwork.Our enrichment activities don’t just fill a child’s day… they shape their personality, confidence, and love for learning from an early age."
+        }
+      },
+      "readMore": "Read more",
+      "readLess": "Read less"
+    }
+  },
+  "pageGallery": {
+    "heading": "Photo gallery",
+    "sub": "We need photos from the nursery that show a variety of activities and both branches."
+  },
+  "home": {
+    "heroTitle": "Welcome to Kids Yard",
+    "heroSubtitle": "Where the journey of learning and discovery begins with confidence and love",
+    "about": "At Kids Yard we offer a bilingual educational environment that combines comprehensive care with a modern curriculum, so your child feels safe first… then learns with enthusiasm. We believe children learn best when they feel loved and secure; that is why we designed a space that embraces their curiosity, imagination, and unique personality. Our facilities are equipped with up-to-date learning tools, we follow the Montessori approach, and we are proud of a team of qualified educators with extensive experience in early childhood.",
+    "facilitiesHeading": "Our facilities",
+    "facilitiesIntro": "We carefully designed our facilities to be a stimulating, safe environment that supports holistic growth:",
+    "facilitiesClosing": "Every corner at Kids Yard is designed to be a true learning experience.",
+    "cardSandTitle": "Sand room",
+    "cardSandBlurb": "Hands-on play that builds creativity and teamwork",
+    "cardBoardTitle": "Smart boards",
+    "cardBoardBlurb": "Interactive screens for active, engaging learning",
+    "cardGardenTitle": "Garden",
+    "cardGardenBlurb": "Space to relax and enjoy nature",
+    "cardGymTitle": "Gymnasium",
+    "cardGymBlurb": "Supporting strong, healthy physical development",
+    "cardMosqueTitle": "mosque",
+    "cardMosqueBlurb": "Nurturing values and a sense of peace",
+    "cardStoryTitle": "Story room",
+    "cardStoryBlurb": "A world of enjoyable stories to discover",
+    "cardMazeTitle": "Maze",
+    "cardMazeBlurb": "Where children express themselves through play",
+    "cardMontiTitle": "Montessori corner",
+    "cardMontiBlurb": "A stimulating space for independence and self-directed learning",
+    "ourImpact": {
+      "title": "Our Impact in Numbers",
+      "cards": {
+        "memmbers": {
+          "title": "Team Members",
+          "subTitle": "Dedicated professionals making a difference every day"
+        },
+        "branches": {
+          "title": "Branches",
+          "subTitle": "Safe and vibrant learning spaces for childrens"
+        },
+        "experience": {
+          "title": "Years of Excellence",
+          "subTitle": "Years of experience in nurturing generations"
+        }
+      }
+    },
+    "whoWeAre": {
+      "heading": "Who we are",
+      "paragraph": "At Kids Yard, we are more than just a nursery — we are an educational community that supports children during their most important early years.",
+      "idea1": "Respecting each child’s individuality",
+      "idea2": "Learning through play and hands-on experiences",
+      "idea3": "Building independence and self-confidence",
+      "idea4": "Encouraging creativity and critical thinking",
+      "orangeLabel": "Give your child the best start today and join the Kids Yard family.",
+      "footer": "Our team of trained educators works with passion and professionalism to create a holistic learning experience that nurtures both the mind and the heart."
+    },
+    "whyKidsYard": {
+      "title": "Why Kids Yard",
+      "subTitle": "Because we don’t just teach letters and numbers… we build confident, well-rounded individuals.",
+      "setsUsApart": "What sets us apart:",
+      "cards": {
+        "card1": "Safe environment with continuous supervision",
+        "card2": "Bilingual education",
+        "card3": "Interactive activities that develop thinking and social skills",
+        "card4": "Focus on emotional intelligence and self-expression",
+        "card5": "Values that are practiced daily, not just taught"
+      },
+      "callToAction": "Register now",
+      "footer": "At Kids Yard, learning is not a lesson… it’s an experience children live and love."
+    },
+    "testimonials": {
+      "title": "Testimonials"
+    },
+    "kids": {
+      "paragraph": "Give your child the best start today and join the Kids Yard family."
+    }
+  },
+  "contactUs": {
+    "whatsappName": "Abdullah Al-Mubarak",
+    "whatsappName2": "Sabah Al-Nasser"
+  },
+  "facility": {
+    "board": {
+      "title": "Smart classrooms",
+      "body": "Our classrooms are equipped with smart screens that create a modern and engaging learning environment. They enhance children’s motivation to learn and simplify complex concepts through 3D models, as well as educational, interactive, and entertaining videos—while supporting an effective blended learning experience."
+    },
+    "monti": {
+      "title": "Montessori area",
+      "body": "This dedicated space follows the Montessori approach, designed to foster children’s independence, self-confidence, and love for self-learning. Through engaging sensory activities and tools, children develop critical thinking and problem-solving skills in a stimulating environment."
+    },
+    "gym": {
+      "title": "Gymnasium",
+      "body": "Our gym is equipped with safe, fun, and child-friendly equipment, along with specially designed flooring to ensure maximum safety. It supports the development of children’s physical strength and overall well-being, positively impacting their academic performance."
+    },
+    "story": {
+      "title": "Story room",
+      "body": "A vibrant storytelling space filled with a variety of illustrated books in both Arabic and English, along with a puppet theater and interactive dolls. This room nurtures imagination, enhances language skills, and delivers knowledge in a fun and engaging way."
+    },
+    "maze": {
+      "title": "Maze area",
+      "body": "A safe and exciting free-play space designed with engaging educational and recreational elements, where children can release their energy in a constructive and meaningful way."
+    },
+    "sand": {
+      "title": "Sand room",
+      "body": "A unique space inspired by a beach setting, offering a rich sensory learning experience. With sanitized sand and safe play tools, it encourages exploration and supports children’s overall development."
+    },
+    "garden": {
+      "title": "Garden",
+      "body": "An outdoor space that blends fun and learning, where children enjoy free play in the fresh air while developing new skills through outdoor activities. It also promotes social development through group interaction."
+    },
+    "mosque": {
+      "title": "Mosque",
+      "body": "A peaceful space that nurtures children’s spiritual growth and preserves their natural values. It introduces them to the principles of Islam and strengthens their connection with Allah through Quran reading and memorization, worship, and positive Islamic behavior."
+    }
+  }
+}

@@ -18,10 +18,7 @@
 <body>
     <div id="loader">
         <div class="spinner"></div>
-        <h3>
-
-            Kids Yard
-        </h3>
+        <h3 data-i18n="common.brand">Kids Yard</h3>
     </div>
     <header>
         <div class="container">
@@ -244,14 +241,20 @@
                         </svg>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link " aria-current="page" href="../../">اﻟﺮﺋﻴﺴﻴﺔ</a>
-                            <a class="nav-link active" href="./">ﻣﻦ ﻧﺤﻦ</a>
-                            <!-- <a class="nav-link" href="../ourCurriculum/">ﻣﻨﻬﺠﻨﺎ</a> -->
-                            <a class="nav-link" href="../ourFacilty/">ﻣﺮاﻓﻘﻨﺎ وأﻧﺸﻄﺘﻨﺎ</a>
-                            <a class="nav-link" href="../gallery/">أﻟﺒﻮم اﻟﺼﻮر </a>
-                            <a class="nav-link" href="../contactUs/">ﺗﻮاﺻﻠﻮا ﻣﻌﻨﺎ</a>
-                            <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+                        <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-2">
+                            <div class="navbar-nav">
+                                <a class="nav-link " aria-current="page" href="../../" data-i18n="nav.home">اﻟﺮﺋﻴﺴﻴﺔ</a>
+                                <a class="nav-link active" href="./" data-i18n="nav.whoWeAre">ﻣﻦ ﻧﺤﻦ</a>
+                                <!-- <a class="nav-link" href="../ourCurriculum/">ﻣﻨﻬﺠﻨﺎ</a> -->
+                                <a class="nav-link" href="../ourFacilty/" data-i18n="nav.facilities">ﻣﺮاﻓﻘﻨﺎ وأﻧﺸﻄﺘﻨﺎ</a>
+                                <a class="nav-link" href="../gallery/" data-i18n="nav.gallery">أﻟﺒﻮم اﻟﺼﻮر </a>
+                                <a class="nav-link" href="../contactUs/" data-i18n="nav.contact">ﺗﻮاﺻﻠﻮا ﻣﻌﻨﺎ</a>
+                                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+                            </div>
+                            <div class="lang-switch btn-group" role="group" aria-label="Language">
+                                <button type="button" class="btn btn-sm btn-outline-secondary lang-switch-btn" data-set-lang="ar" data-i18n="common.langAr">العربية</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary lang-switch-btn" data-set-lang="en" data-i18n="common.langEn">English</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -262,12 +265,12 @@
     <main>
         <section class="who-are-we-section">
             <div class="container">
-                <div class="w-100 d-flex justify-content-center align-items-center flex-column gap-3 pt-3">
+                <div class="w-100 d-flex justify-content-center align-items-center flex-column gap-3">
                     <div class="d-flex">
 
                         <div class="d-flex flex-column ">
-                            <h1>ﻣﻦ ﻧﺤﻦ</h1>
-                            <svg viewBox="0 0 216 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <h2 data-i18n="pageWhoWeAre.heading">ﻣَﻦْ ﻧﺤﻦ</h2>
+                            <svg class='questions-svg' viewBox="0 0 216 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M214.155 9.43281C203.925 2.87281 191.225 0.102876 178.335 0.00287603C164.385 -0.107124 150.835 2.95281 137.775 6.68281C123.805 10.6728 110.125 15.2329 95.6852 17.9829C81.5152 20.6829 66.9952 21.9828 52.4452 21.9128C35.9952 21.8328 19.6452 19.9828 3.79515 16.3928C-0.0148497 15.5328 -1.63479 20.3528 2.16521 21.2128C30.3652 27.6028 60.2452 28.5928 89.0152 24.2228C103.435 22.0328 117.125 18.1529 130.845 14.0229C143.815 10.1229 157.135 6.15285 171.015 5.22285C184.435 4.32285 198.965 5.99284 209.825 12.9628C211.125 13.7928 212.895 13.9928 214.165 12.9628C215.225 12.1028 215.465 10.2728 214.155 9.43281Z"
                                     fill="#80D838" />
@@ -285,10 +288,10 @@
                                 fill="#80D838" />
                         </svg>
                     </div>
-                    <p>
+                    <p data-i18n="home.whoWeAre.paragraph">
                         ﻓﻲ ﻛﻴﺪز ﻳﺎرد ﻧﺤﻦ أﻛﺜﺮ ﻣﻦ ﺣﻀﺎﻧﺔ — ﻧﺤﻦ ﻣﺠﺘﻤﻊ ﺗﺮﺑﻮي ﻳﺮاﻓﻖ اﻟﻄﻔﻞ ﻓﻲ ﺳﻨﻮاﺗﻪ
                         اﻷوﻟﻰ، اﻷﻫﻢ ﻓﻲ ﺗﺸﻜﻴﻞ ﺷﺨﺼﻴﺘﻪ.
-                        ﻧﻄﺒﻖ أﺳﺎﻟﻴﺐ ﺗﻌﻠﻴﻢ ﺣﺪﻳﺜﺔ ﻣﺴﺘﻠﻬﻤﺔ ﻣﻦ ﻓﻠﺴﻔﺔ اﻟﻤﻮﻧﺘﻴﺴﻮري اﻟﺘﻲ ﺗﺮﻛﺰ ﻋﻠﻰ:
+                        ﻧﻄﺒّﻖ أﺳﺎﻟﻴﺐ ﺗﻌﻠﻴﻢ ﺣﺪﻳﺜﺔ ﻣﺴﺘﻠﻬﻤﺔ ﻣﻦ ﻓﻠﺴﻔﺔ اﻟﻤﻮﻧﺘﻴﺴﻮري اﻟﺘﻲ ﺗﺮﻛﺰ ﻋﻠﻰ:
                     </p>
                     <div class="row ">
 
@@ -359,10 +362,12 @@
                                     </svg>
 
                                     <div class="idea-text">
-                                        <h3 class="idea-n1 d-none d-lg-flex">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h3>
-                                        <h4 class="idea-n1 d-flex d-lg-none">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h4>
+                                        <h3 class="idea-n1 d-none d-lg-flex" data-i18n="home.whoWeAre.idea1">اﺣﺘﺮام ﻓﺮدﻳﺔ
+                                            اﻟﻄﻔﻞ</h3>
+                                        <h4 class="idea-n1 d-flex d-lg-none" data-i18n="home.whoWeAre.idea1">
+                                            اﺣﺘﺮام ﻓﺮدﻳﺔ
+                                            اﻟﻄﻔﻞ
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -451,10 +456,15 @@
                                             fill="#FFD45F" />
                                     </svg>
                                     <div class="idea-text">
-                                        <h3 class=" idea-n2 d-none d-lg-flex">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h3>
-                                        <h4 class="idea-n2 d-flex d-lg-none">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h4>
+                                        <h3 class="idea-n2 d-none d-lg-flex" data-i18n="home.whoWeAre.idea2">
+                                            اﻟﺘﻌﻠﻢ ﻋﺒﺮ
+                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ
+
+                                        </h3>
+                                        <h4 class="idea-n2 d-flex d-lg-none" data-i18n="home.whoWeAre.idea2">
+                                            اﻟﺘﻌﻠﻢ ﻋﺒﺮ
+                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -526,10 +536,15 @@
                                             fill="#5B9F8F" />
                                     </svg>
                                     <div class="idea-text">
-                                        <h3 class=" idea-n3 d-none d-lg-flex">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h3>
-                                        <h4 class="idea-n3 d-flex d-lg-none">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h4>
+                                        <h3 class=" idea-n3 d-none d-lg-flex" data-i18n="home.whoWeAre.idea3">
+                                            ﺗﻨﻤﻴﺔ
+                                            اﻻﺳﺘﻘﻼﻟﻴﺔ
+                                            واﻟﺜﻘﺔ ﺑﺎﻟﻨﻔﺲ </h3>
+                                        <h4 class="idea-n3 d-flex d-lg-none" data-i18n="home.whoWeAre.idea3">
+                                            ﺗﻨﻤﻴﺔ
+                                            اﻻﺳﺘﻘﻼﻟﻴﺔ
+                                            واﻟﺜﻘﺔ ﺑﺎﻟﻨﻔﺲ
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -607,24 +622,23 @@
 
 
                                     <div class="idea-text ">
-                                        <h3 class=" idea-n4 d-none d-lg-flex">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h3>
-                                        <h4 class=" idea-n4 d-lg-none d-flex">اﻟﺘﻌﻠﻢ ﻋﺒﺮ
-                                            اﻟﻠﻌﺐ واﻟﺘﺠﺮﺑﺔ</h4>
+                                        <h3 class=" idea-n4 d-none d-lg-flex" data-i18n="home.whoWeAre.idea4"> ﺗﻄﻮﻳﺮ اﻟﺘﻔﻜﻴﺮ
+                                            واﻹﺑﺪاع
+                                        </h3>
+                                        <h4 class="idea-n4 d-flex d-lg-none" data-i18n="home.whoWeAre.idea4">
+                                            ﺗﻄﻮﻳﺮ اﻟﺘﻔﻜﻴﺮ
+                                            واﻹﺑﺪاع
+                                        </h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                    </div>>
-                    <div class="pt-4">
-                        <p>
-                            ﻧﺴﺘﻘﺒﻞ أﻃﻔﺎﻟﻨﺎ ﻣﻦ ﻋﻤﺮ 3 ﺷﻬﻮر إﻟﻰ 5 ﺳﻨﻮات
-                        </p>
                     </div>
-
-                    <div class="px-5 d-none d-md-block">
-                        <img class="four-imgs" src="./assests/gallery.png" alt="">
+                    <div class="pt-4">
+                        <p data-i18n="home.whoWeAre.footer">ﻓﺮﻳﻘﻨﺎ ﻣﻦ اﻟﻜﻮادر اﻟﺘﺮﺑﻮﻳﺔ اﻟﻤﺪرّﺑﺔ ﻳﻌﻤﻞ ﺑﻤﺤﺒﺔ واﺣﺘﺮاﻓﻴﺔ ﻟﺨﻠﻖ ﺗﺠﺮﺑﺔ ﺗﻌﻠﻴﻤﻴﺔ
+                            ﻣﺘﻜﺎﻣﻠﺔ ﺗﻨﻤﻲ اﻟﻌﻘﻞ واﻟﻘﻠﺐ ﻣﻌﺎ ً
+                        </p>
                     </div>
                 </div>
             </div>
@@ -636,8 +650,8 @@
                     <div class="d-flex">
 
                         <div class="d-flex flex-column ">
-                            <h2>ﻣﻨﻬﺠــﻨﺎ</h2>
-                            <svg viewBox="0 0 216 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <h2 data-i18n="pageWhoWeAre.curriculumHeading">ﻣﻨﻬﺠــﻨﺎ</h2>
+                            <svg class='questions-svg' viewBox="0 0 216 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M214.155 9.43281C203.925 2.87281 191.225 0.102876 178.335 0.00287603C164.385 -0.107124 150.835 2.95281 137.775 6.68281C123.805 10.6728 110.125 15.2329 95.6852 17.9829C81.5152 20.6829 66.9952 21.9828 52.4452 21.9128C35.9952 21.8328 19.6452 19.9828 3.79515 16.3928C-0.0148497 15.5328 -1.63479 20.3528 2.16521 21.2128C30.3652 27.6028 60.2452 28.5928 89.0152 24.2228C103.435 22.0328 117.125 18.1529 130.845 14.0229C143.815 10.1229 157.135 6.15285 171.015 5.22285C184.435 4.32285 198.965 5.99284 209.825 12.9628C211.125 13.7928 212.895 13.9928 214.165 12.9628C215.225 12.1028 215.465 10.2728 214.155 9.43281Z"
                                     fill="#80D838" />
@@ -654,7 +668,7 @@
                             <div
                                 class="d-felx position-relative align-items-cetner justify-content-center curriculm-card-header">
                                 <div class="curriculm-header-box">
-                                    <h3>اﻟﻠﻐﺔ اﻟﻌﺮﺑﻴﺔ</h3>
+                                    <h3 data-i18n="pageWhoWeAre.ourCurriculum.cards.arabic.title">اﻟﻠﻐﺔ اﻟﻌﺮﺑﻴﺔ</h3>
                                 </div>
                                 <svg width="240" height="52" viewBox="0 0 240 52" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -666,7 +680,7 @@
 
                             </div>
                             <div class="curriculm-body">
-                                <p class="read-more-text">ﻷن اﻟﻠﻐﺔ اﻟﻌﺮﺑﻴﺔ أﺳﺎس اﻧﺘﻤﺎﺋﻨﺎ وﻫﻮﻳﺘﻨﺎ ودﻳﻨﻨﺎ، ﻧﻮﻟﻲ ﻓﻲ ﻛﻴﺪز
+                                <p class="read-more-text" data-i18n="pageWhoWeAre.ourCurriculum.cards.arabic.paragraph">ﻷن اﻟﻠﻐﺔ اﻟﻌﺮﺑﻴﺔ أﺳﺎس اﻧﺘﻤﺎﺋﻨﺎ وﻫﻮﻳﺘﻨﺎ ودﻳﻨﻨﺎ، ﻧﻮﻟﻲ ﻓﻲ ﻛﻴﺪز
                                     ﻳﺎرد اﻫﺘﻤﺎﻣﺎً ﺧﺎﺻﺎً ﺑﻬﺎ، وﻧﺤﺮص
                                     ﻋﻠﻰ أن ﺗﻜﻮن ﺣﺎﺿﺮة ﻓﻲ ﺣﻴﺎة اﻟﻄﻔﻞ اﻟﻴﻮﻣﻴﺔ ﺑﺸﻜﻞ ﻃﺒﻴﻌﻲ وﻣﺤﺒّﺐ.
                                     ﻧﻌﺮف أﻃﻔﺎﻟﻨﺎ ﺑﺠﻤﺎل ﻟﻐﺘﻬﻢ ﻣﻦ ﺧﻼل اﻟﻘﺼﺺ اﻟﻬﺎدﻓﺔ، اﻷﻧﺎﺷﻴﺪ، اﻟﺤﻮار اﻟﺘﻔﺎﻋﻠﻲ،
@@ -678,7 +692,7 @@
                                     ﻧﻬﺪف إﻟﻰ ﺗﻨﻤﻴﺔ ﻣﻬﺎرات اﻻﺳﺘﻤﺎع واﻟﺘﻌﺒﻴﺮ، إﺛﺮاء اﻟﻤﻔﺮدات، وﺗﻌﺰﻳﺰ اﻟﺜﻘﺔ ﻓﻲ اﻟﺘﺤﺪث،
                                     ﻟﻴﻜﺒﺮ
                                     اﻟﻄﻔﻞ ﻣﺮﺗﺒﻄﺎً ﺑﻠﻐﺘﻪ، ﻣﻌﺘﺰاً ﺑﻬﻮﻳﺘﻪ، وﻗﺎدراً ﻋﻠﻰ اﻟﺘﻌﺒﻴﺮ ﻋﻦ ذاﺗﻪ ﺑﻄﻼﻗﺔ وﻣﺤﺒﺔ</p>
-                                <button class="read-more-btn" id="arabicLang">اقرأ المزيد</button>
+                                <button class="read-more-btn" id="arabicLang" >اقرأ المزيد</button>
                             </div>
                         </div>
                         <img src="../../assests/curriculum page/Group 9.png" alt="">
@@ -690,7 +704,7 @@
                             <div
                                 class="d-felx position-relative align-items-cetner justify-content-center curriculm-card-header">
                                 <div class="curriculm-header-box">
-                                    <h3>اﻟﻠﻐﺔ اﻹﻧﻜﻠﻴﺰﻳﺔ</h3>
+                                    <h3 data-i18n="pageWhoWeAre.ourCurriculum.cards.english.title">اﻟﻠﻐﺔ اﻹﻧﻜﻠﻴﺰﻳﺔ</h3>
                                 </div>
                                 <svg width="240" height="52" viewBox="0 0 240 52" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -702,7 +716,7 @@
 
                             </div>
                             <div class="curriculm-body">
-                                <p class="read-more-text">ﻧﻘﺪم اﻟﻠﻐﺔ اﻹﻧﺠﻠﻴﺰﻳﺔ ﺑﺄﺳﻠﻮب ﺗﻔﺎﻋﻠﻲ ﻳﻌﺘﻤﺪ ﻋﻠﻰ اﻟﻠﻌﺐ، اﻷﻧﺸﻄﺔ
+                                <p class="read-more-text" data-i18n="pageWhoWeAre.ourCurriculum.cards.english.paragraph">ﻧﻘﺪم اﻟﻠﻐﺔ اﻹﻧﺠﻠﻴﺰﻳﺔ ﺑﺄﺳﻠﻮب ﺗﻔﺎﻋﻠﻲ ﻳﻌﺘﻤﺪ ﻋﻠﻰ اﻟﻠﻌﺐ، اﻷﻧﺸﻷﻧﺸﻄﺔ
                                     اﻟﺤﺮﻛﻴﺔ، اﻷﻏﺎﻧﻲ، واﻟﺘﻮاﺻﻞ
                                     اﻟﻴﻮﻣﻲ داﺧﻞ اﻟﺼﻒ، ﻟﻴﻜﺘﺴﺐ اﻟﻄﻔﻞ اﻟﻠﻐﺔ ﺑﻄﺮﻳﻘﺔ ﻃﺒﻴﻌﻴﺔ وﻣﻤﺘﻌﺔ.
                                     ﻛﻤﺎ ﻧﺤﺮص ﻋﻠﻰ ﺗﻌﻠﻴﻢ ﻣﻬﺎرات اﻟﻘﺮاءة واﻟﻜﺘﺎﺑﺔ وﻓﻖ أﺣﺪث اﻟﻄﺮق واﻟﻤﻨﺎﻫﺞ اﻟﺘﻌﻠﻴﻤﻴﺔ
@@ -724,7 +738,7 @@
                         <div
                             class="d-felx position-relative align-items-cetner justify-content-center curriculm-card-header">
                             <div class="curriculm-header-box">
-                                <h3>اﻟﺘﺮﺑﻴﺔ اﻹﺳﻼﻣﻴﺔ</h3>
+                                <h3 data-i18n="pageWhoWeAre.ourCurriculum.cards.islamic.title">اﻟﺘﺮﺑﻴﺔ اﻹﺳﻼﻣﻴﺔ</h3>
                             </div>
                             <svg width="240" height="52" viewBox="0 0 240 52" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -736,20 +750,8 @@
 
                         </div>
                         <div class="curriculm-body">
-                            <p class="read-more-text align-text">
-                                ﻓﻲ ﻛﻴﺪز ﻳﺎرد ﻧﺆﻣﻦ أن اﻟﺘﺮﺑﻴﺔ اﻹﺳﻼﻣﻴﺔ ﻟﻴﺴﺖ ﻣﺎدة ﺗﻌﻠﻴﻤﻴﺔ ﻓﺤﺴﺐ، ﺑﻞ
-                                أﺳﻠﻮب ﺣﻴﺎة ﻳﻐﺮس
-                                ﻓﻲ ﻗﻠﺐ اﻟﻄﻔﻞ ﺑﻤﺤﺒﺔ ووﻋﻲ ﻣﻨﺬ اﻟﺼﻐﺮ.
-                                ﻧﻌﺮف أﻃﻔﺎﻟﻨﺎ ﺑﺄﺳﺎﺳﻴﺎت اﻟﺪﻳﻦ ﺑﻄﺮﻳﻘﺔ ﻣﺒﺴﻄﺔ وﺗﻔﺎﻋﻠﻴﺔ ﺗﻨﺎﺳﺐ أﻋﻤﺎرﻫﻢ، ﻣﻦ ﺧﻼل:<br>
-
-                                • ﺗﻌﻠّﻢ اﻟﻮﺿﻮء واﻟﺼﻼة ﺧﻄﻮة ﺑﺨﻄﻮة ﺑﺄﺳﻠﻮب ﻋﻤﻠﻲ <br>
-                                • ﺣﻔﻆ ﺳﻮر ﻗﺼﻴﺮة وأذﻛﺎر ﻳﻮﻣﻴﺔ ﺑﻄﺮﻳﻘﺔ ﻣﻤﺘﻌﺔ<br>
-                                • ﻗﺼﺺ اﻷﻧﺒﻴﺎء واﻟﺴﻴﺮة اﻟﻨﺒﻮﻳﺔ ﺑﺄﺳﻠﻮب ﺷﻴّﻖ<br>
-                                • أﻧﺸﻄﺔ ﺗﻌﺰز اﻟﻘﻴﻢ ﻣﺜﻞ اﻟﺼﺪق، اﻷﻣﺎﻧﺔ، اﻻﺣﺘﺮام، واﻟﺘﻌﺎون<br><br>
-                                ﻛﻤﺎ ﻧﻘﺪم ﻣﺴﺎﺑﻘﺎت ﺗﺸﺠﻴﻌﻴﺔ ﻟﺤﻔﻆ اﻟﻘﺮآن اﻟﻜﺮﻳﻢ، ﻧﻬﺪف ﻣﻦ ﺧﻼﻟﻬﺎ إﻟﻰ ﺗﺤﻔﻴﺰ اﻷﻃﻔﺎل وﺗﻌﺰﻳﺰ
-                                ﺣﺒّﻬﻢ ﻟﻜﻼم اﻟﻠﻪ ﺑﺄﺳﻠﻮب إﻳﺠﺎﺑﻲ ﻣﻠﻲء ﺑﺎﻟﺘﻘﺪﻳﺮ واﻟﺘﺸﺠﻴﻊ.
-                                ﻧﺮﻛّﺰ ﻋﻠﻰ ﺑﻨﺎء ﻋﻼﻗﺔ إﻳﺠﺎﺑﻴﺔ ﺑﻴﻦ اﻟﻄﻔﻞ ودﻳﻨﻪ ﻗﺎﺋﻤﺔ ﻋﻠﻰ اﻟﻔﻬﻢ واﻟﻄﻤﺄﻧﻴﻨﺔ، ﻟﻴﻜﺒﺮ وﻫﻮ ﻳﺸﻌﺮ
-                                ﺑﺎﻟﻘﺮب ﻣﻦ اﻟﻠﻪ، وﻳﻤﺎرس اﻟﻘﻴﻢ اﻹﺳﻼﻣﻴﺔ ﻓﻲ ﺳﻠﻮﻛﻪ اﻟﻴﻮﻣﻲ ﺑﺜﻘﺔ وﻣﺤﺒﺔ</p>
+                            <p class="read-more-text align-text"
+                                data-i18n="pageWhoWeAre.ourCurriculum.cards.islamic.paragraph">في كيدز يارد نؤمن أن التربية الإسلامية ليست مادة تعليمية فحسب، بل أسلوب حياة يغرس في قلب الطفل بمحبة ووعي منذ الصغر. نعرّف أطفالنا بأساسيات الدين بطريقة مبسطة وتفاعلية تناسب أعمارهم، من خلال: تعلّم الوضوء والصلاة خطوة بخطوة بأسلوب عملي، حفظ سور قصيرة وأذكار يومية بطريقة ممتعة، قصص الأنبياء والسيرة النبوية بأسلوب شيّق، وأنشطة تعزز القيم مثل الصدق، الأمانة، الاحترام، والتعاون. كما نقدّم مسابقات تشجيعية لحفظ القرآن الكريم، نهدف من خلالها إلى تحفيز الأطفال وتعزيز حبّهم لكلام الله بأسلوب إيجابي مليء بالتقدير والتشجيع. نركّز على بناء علاقة إيجابية بين الطفل ودينه قائمة على الفهم والطمأنينة، ليكبر وهو يشعر بالقرب من الله، ويمارس القيم الإسلامية في سلوكه اليومي بثقة ومحبة.</p>
                             <button class="read-more-btn" id="englishLang">اقرأ المزيد</button>
                         </div>
                     </div>
@@ -761,14 +763,14 @@
                         <div
                             class="d-felx position-relative align-items-cetner justify-content-center curriculm-card-header">
                             <div class="curriculm-header-box">
-                                <h3>اﻟﺒﺮاﻣﺞ واﻷﻧﺸﻄﺔ اﻹﺛﺮاﺋﻴﺔ </h3>
+                                <h3 data-i18n="pageWhoWeAre.ourCurriculum.cards.programmes.title">اﻟﺒﺮاﻣﺞ واﻷﻧﺸﻄﺔ اﻹﺛﺮاﺋﻴﺔ </h3>
                             </div>
                             <svg width="400" height="52" viewBox="0 0 400 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M399.024 52C267.957 51.3042 136.889 50.6157 5.82126 49.9199C6.91006 47.144 11.6907 45.4655 10.4793 42.704C9.45539 40.3728 3.12433 39.4331 1.87689 37.1306C0.160757 33.9745 9.07318 31.5071 8.8136 28.2363C8.56123 25.0229 -0.329453 23.1148 0.00944664 19.9013C0.283451 17.3406 6.35487 15.7913 7.47252 13.2808C8.30174 11.4086 6.17448 9.57265 4.63862 7.81529C3.10275 6.05794 2.03563 3.93461 4.87662 2.63632C135.223 -1.567 266.219 -0.741988 396.291 5.09674C399.399 6.81106 397.07 10.0601 395.167 12.1618C393.263 14.2634 390.811 16.523 392.059 18.7466C393.342 21.0204 398.296 22.6486 398.289 25.0085C398.282 28.0713 389.852 30.1155 390.747 33.1425C391.475 35.6028 398.137 37.0161 397.892 39.4979C397.733 41.1405 394.474 42.3669 394.078 44.0023C393.703 45.5373 395.909 46.8859 397.575 48.1985C399.233 49.5112 401.231 50.9026 399.024 52Z" fill="#FFD45F"/>
                                 </svg>
                         </div>
                         <div class="curriculm-body">
-                            <p class="read-more-text">
+                            <p class="read-more-text" data-i18n="pageWhoWeAre.ourCurriculum.cards.programmes.paragraph">
                                 ﻓﻲ ﻛﻴﺪز ﻳﺎرد، ﻧﺆﻣﻦ أن اﻟﺘﻌﻠّﻢ اﻟﺤﻘﻴﻘﻲ ﻻ ﻳﻘﺘﺼﺮ ﻋﻠﻰ اﻟﻤﻨﻬﺞ داﺧﻞ اﻟﺼﻒ، ﺑﻞ ﻳﻤﺘﺪ إﻟﻰ ﺗﺠﺎرب
                                 ﻳﻮﻣﻴﺔ ﺗﺜﺮي ﻋﻘﻞ اﻟﻄﻔﻞ وﺗﻐﺬي ﻓﻀﻮﻟﻪ. ﻟﺬﻟﻚ ﺻﻤﻤﻨﺎ ﺑﺮاﻣﺞ وأﻧﺸﻄﺔ إﺛﺮاﺋﻴﺔ ﻣﺘﻜﺎﻣﻠﺔ ﺗﻨﻤﻲ
                                 اﻟﻤﻬﺎرات اﻟﻔﻜﺮﻳﺔ، اﻟﺤﺮﻛﻴﺔ، اﻻﺟﺘﻤﺎﻋﻴﺔ، واﻹﺑﺪاﻋﻴﺔ.
@@ -798,7 +800,7 @@
         <div class="container">
             <div class="d-flex flex-column gap-3 p-4 p-md-0">
                 <div class="d-flex justify-content-center align-items-center flex-column w-100">
-                    <p>ﻟﻠﺘﻮاﺻﻞ ﻣﻌﻨﺎ ﻟﻼﺳﺘﻔﺴﺎرات واﻟﺤﺠﺰ</p>
+                    <p data-i18n="footer.cta">ﻟﻠﺘﻮاﺻﻞ ﻣﻌﻨﺎ ﻟﻼﺳﺘﻔﺴﺎرات واﻟﺤﺠﺰ</p>
                     <div class="d-flex gap-2">
                         <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -926,6 +928,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@23.11.5/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.5.0/i18nextHttpBackend.min.js"></script>
+    <script src="../../js/i18n.js"></script>
     <script src="../../js/index.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 
@@ -933,7 +938,7 @@
         window.addEventListener("load", function () {
 
             // everything is loaded
-            console.log('loaded.....')
+            //console.log('loaded.....')
 
             document.getElementById("loader").style.display = "none";
 

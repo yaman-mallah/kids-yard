@@ -59,8 +59,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  direction: rtl;
-  unicode-bidi: bidi-override;
+
   font-variant-ligatures: contextual;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
@@ -103,7 +102,7 @@ body {
 
 body {
   /* font-family: "ExpoArabic"; */
-  text-align: end;
+  /* text-align: end; */
   padding: 0;
 }
 a,
@@ -121,7 +120,7 @@ h2,
 h3,
 h4 {
   margin: 0;
-  text-align: start;
+
 }
 @media screen and (max-width: 525px) {
   h1 {
@@ -140,9 +139,7 @@ h4 {
     line-height: 160%;
   }
 }
-h2 {
-  white-space: nowrap;
-}
+
 .navbar-nav {
   background-color: var(--color-accent-yellow);
   border-radius: 200px;
@@ -251,5 +248,69 @@ footer p {
 @keyframes spin {
   to {
     transform: rotate(360deg);
+  }
+}
+
+.lang-switch .lang-switch-btn.active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+
+/* langouge changes  */
+[dir="ltr"] .h1-bg {
+  inset-inline-start: 0;
+}
+[dir="ltr"] .our-impact-card p {
+  max-width: 400px;
+  text-align: center;
+}
+
+[dir="ltr"] .idea-text h4 {
+  font-size: 19px;
+}
+[dir="ltr"] .idea-n3 {
+  inset-inline-start: 33px;
+  inset-block-start: -0px;
+}
+[dir="ltr"] .idea-n2 {
+  inset-inline-start: -0;
+  inset-block-start: 15px;
+  max-width: 140px;
+}
+[dir="ltr"] .our-curriculm-section h3 {
+  font-size: 25px;
+}
+[dir="ltr"] .hero-box-end {
+  align-items: start !important;
+}
+[dir="ltr"] .hero-box-end .h1-box {
+  padding: 40px 30px 30px 0;
+}
+[dir="ltr"] .question-svg {
+  transform: scaleX(-1);
+}
+
+
+@media screen and (min-width: 768px) {
+  [dir="ltr"] .orange-label {
+    width: 100%;
+    /* TODO change the image url to fit the english text */
+    background-image: url("../assests/orangeLabelEnglishDesktop.svg");
+  }
+}
+@media screen and (min-width: 992px) {
+  [dir="ltr"] .idea-text h4 {
+    font-size: 24px;
+  }
+  [dir="ltr"] .idea-n2 {
+    inset-inline-start: -20px;
+    inset-block-start: 20px;
+    max-width: 200px;
+  }
+  [dir="ltr"] .idea-n3 {
+    inset-inline-start: 30px;
+    inset-block-start: -24px;
   }
 }
