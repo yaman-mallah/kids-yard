@@ -20,7 +20,9 @@
   "footer": {
     "cta": "Contact us for inquiries and bookings",
     "branch": " Abdullah Al-Mubarak Branch",
-    "branch2": "Sabah Al-Nasser Branch"
+    "branchLocation": "Block 9, Street 14, House 37",
+    "branch2": "Sabah Al-Nasser Branch",
+    "branch2Location": "Block 7, Street "
   },
   "pageFacilities": {
     "heading": "Facilities & activities",
