@@ -1,0 +1,231 @@
+/**
+ * Article pages — loads AFTER index.css & general.css
+ * Fixes global h2 { white-space: nowrap } overflow on mobile
+ */
+
+.page-article {
+  overflow-x: hidden;
+}
+
+.page-article .article-page {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-bottom: clamp(3rem, 8vw, 5rem);
+  box-sizing: border-box;
+}
+
+/* Centered column — no Bootstrap container (avoids double padding / overflow) */
+.page-article .article-shell {
+  width: 100%;
+  max-width: 42rem;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 1.5rem);
+  box-sizing: border-box;
+}
+
+/* Illustration */
+.page-article .article-illustration-wrap {
+  width: 100%;
+  margin: 0 auto clamp(1rem, 3vw, 2rem);
+  text-align: center;
+}
+
+.page-article .article-illustration {
+  display: block;
+  width: 100%;
+  max-width: min(100%, 26rem);
+  height: auto;
+  margin-inline: auto;
+}
+
+/* Content block */
+.page-article .article-content {
+  width: 100%;
+  min-width: 0;
+}
+
+/* Force wrap — overrides index.css + general.css h2/h3 nowrap */
+.page-article .article-page h1,
+.page-article .article-page h2,
+.page-article .article-page h3,
+.page-article .article-section-title,
+.page-article .article-closing-title,
+.page-article .article-benefit h3 {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  max-width: 100%;
+  line-height: 1.4;
+}
+
+.page-article .article-section-title {
+  color: var(--color-cta);
+  font-size: clamp(1.125rem, 4.5vw, 2rem);
+  font-weight: 700;
+  margin: clamp(1.75rem, 5vw, 3rem) 0 clamp(0.75rem, 2.5vw, 1rem);
+}
+
+.page-article .article-section-title:first-child {
+  margin-top: 0;
+}
+
+.page-article .article-lead,
+.page-article .article-content > p {
+  display: block;
+  color: var(--color-primary);
+  font-size: clamp(0.9375rem, 2.8vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.85;
+  margin: 0 0 1rem;
+  text-align: right;
+  max-width: 100%;
+}
+
+/* Benefits */
+.page-article .article-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 3vw, 1.75rem);
+  margin: clamp(1rem, 3vw, 2rem) 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.page-article .article-benefit {
+  width: 100%;
+  min-width: 0;
+  padding-bottom: clamp(1rem, 2.5vw, 1.25rem);
+  border-bottom: 1px solid rgba(91, 159, 143, 0.2);
+}
+
+.page-article .article-benefit:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.page-article .article-benefit h3 {
+  color: var(--color-primary);
+  font-size: clamp(1rem, 3.5vw, 1.375rem);
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  text-align: right;
+}
+
+.page-article .article-benefit-num {
+  color: var(--color-cta);
+  margin-inline-end: 0.25rem;
+}
+
+.page-article .article-benefit p {
+  display: block;
+  color: var(--color-primary);
+  font-size: clamp(0.875rem, 2.6vw, 1.0625rem);
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0;
+  text-align: right;
+}
+
+/* Feature list — reset from global `ul, li { all: unset }` */
+.page-article .article-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0 0 clamp(1.25rem, 3vw, 2rem);
+  padding: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.page-article .article-features li {
+  display: block;
+  position: relative;
+  padding-inline-start: 1.5rem;
+  color: var(--color-primary);
+  font-size: clamp(0.9375rem, 2.8vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.75;
+  text-align: right;
+  max-width: 100%;
+}
+
+.page-article .article-features li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0.55em;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  background-color: var(--color-success);
+}
+
+/* Closing */
+.page-article .article-closing {
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+  padding-top: clamp(1.5rem, 4vw, 2.5rem);
+  border-top: 2px solid var(--color-accent-yellow);
+  text-align: center;
+  width: 100%;
+  min-width: 0;
+}
+
+.page-article .article-closing-title {
+  color: var(--color-cta);
+  font-size: clamp(1.125rem, 4.5vw, 2.25rem);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.page-article .article-closing-text {
+  display: block;
+  color: var(--color-primary);
+  font-size: clamp(0.9375rem, 3vw, 1.25rem);
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+}
+
+/* Hero (when uncommented) */
+.page-article .article-hero {
+  padding: clamp(1.5rem, 4vw, 2.5rem) 0;
+  text-align: center;
+}
+
+.page-article .article-sign-board {
+  color: var(--color-cta);
+  border-radius: 12px;
+  padding: clamp(0.75rem, 2vw, 1rem) clamp(1.25rem, 4vw, 2rem);
+  max-width: 100%;
+}
+
+.page-article .article-cta-btn {
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.625rem 1.5rem;
+  font-size: clamp(0.9375rem, 2.5vw, 1.125rem);
+}
+
+@media screen and (min-width: 768px) {
+  .page-article .article-shell {
+    max-width: 45rem;
+    padding-inline: 1.5rem;
+  }
+
+  .page-article .article-section-title {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .page-article .article-shell {
+    padding-inline: 0.75rem;
+  }
+}
